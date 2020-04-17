@@ -1,6 +1,6 @@
 # Converter
 Application to convert currencies based on fixer.io API build using React 16.13.1 & Redux 4.0.5
-Application should be capable of handling both free and paid one plan.
+Application should be capable of handling both free and paid plan.
 
 ## How to install
 Download node.js at least 11th and run command `npm i`
