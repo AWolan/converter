@@ -1,0 +1,30 @@
+.home {
+  display: grid;
+  grid-template-areas: 'info info'
+                       'base-amount currencies-amounts'
+                       'exchange currencies-amounts'
+                       'base currencies';
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px minmax(100px, max-content) minmax(100px, max-content) minmax(200px, max-content);
+
+  .info {
+    grid-area: info;
+  }
+  .base-amount {
+    grid-area: base-amount;
+  }
+  .exchange {
+    grid-area: exchange;
+    width: 200px;
+    height: 40px;
+  }
+  .currencies-amounts {
+    grid-area: currencies-amounts;
+  }
+  .base {
+    grid-area: base;
+  }
+  .currencies {
+    grid-area: currencies;
+  }
+}

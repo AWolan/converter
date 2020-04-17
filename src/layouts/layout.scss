@@ -1,0 +1,12 @@
+header {
+  min-height: 50px;
+  .link {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+
+    &.active {
+      background-color: darkgray;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+$background: black;
+$color: white;
+$selectedColor: #505050;
+
+// $logoBottomCapitalFontSize: 48px;
+// $logoBottomFontSize: 36px;
+// $logoTopCapitalFontSize: 42px;
+// $logoTopFontSize: 30px;
+
+$baseSize: 6px;
+$logoBottomCapitalFontSize: 8 * $baseSize;
+$logoBottomFontSize: 6 * $baseSize;
+$logoTopCapitalFontSize: 7 * $baseSize;
+$logoTopFontSize: 5 * $baseSize;
+
+$largeFont: $baseSize * 5;
+$bigFont: $baseSize * 4;
+$mediumFont: $baseSize * 3;
+$smallFont: $baseSize * 2;
+
+$largePadding: 20px;
+$padding: 10px;
+$smallPadding: 5px;

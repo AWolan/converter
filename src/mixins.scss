@@ -1,0 +1,42 @@
+@import './variables.scss';
+
+@keyframes border {
+  from {
+    border-top: 0;
+    border-left: 0;
+  }
+  to {
+    border-top: 1px solid $selectedColor;
+    border-left: 1px solid $selectedColor;
+  }
+}
+
+%title {
+  grid-area: title;
+  font-size: $largeFont;
+  padding: $largePadding;
+  background: $selectedColor;
+  background: linear-gradient(90deg, $background, $selectedColor, $background);
+  margin: 20px;
+  text-align: center;
+  transition: 0.5 linear;
+  border-radius: 25% 25% 0 0;
+}
+
+%main {
+  grid-area: main;
+  font-size: $bigFont;
+  padding: $largePadding;
+  // background: linear-gradient(0, $background, $selectedColor);
+  // border-top: 1px solid $selectedColor;
+  // border-left: 1px solid $selectedColor;
+  text-align: center;
+  // transition: border 0.5s linear;
+  // animation: border 0.5s linear 0s;
+}
+
+%details {
+  grid-area: details;
+  font-size: $mediumFont;
+  padding: $smallPadding $largePadding;
+}
